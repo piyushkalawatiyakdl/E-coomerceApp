@@ -2,7 +2,7 @@ const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
-
+// controllers for express  middle  controllers that require middle controllers
 const errorController = require('./controllers/error');
 
 const app = express();
